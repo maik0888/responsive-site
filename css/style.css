@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+
+body{
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 500px;
+    text-align:center;
+    margin-bottom: 25px;
+}
+footer{
+  background-color:#00DBB3;
+  padding:15px;
+  margin-top:20px;
+}
+.profile {
+  background-image: url("../images/yakeihokkaido.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    height: 250px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width:500px;
+}
+.box {
+  border: solid 1px skyblue;
+  flex: 1;
+  width:22%;
+  padding:10px;
+  margin:20px;
+  text-align:center;
+}
+.clearfix::after {
+    content: '';
+    display:block;
+    clear: both;
+}
+.sample{
+    font-size:25px;
+    font-weight:bold;
+    text-decoration: none;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#131818;
+    border:2px solid #333;
+    background-color:#FBFCFC;
+    border-radius:10px;
+}
+.button{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.3%;
+    color:#131818;
+}
+.click{
+  text-align:center;
+  font-weight:bolder;
+  color:#131818;
+}
+.oya{
+  display:flex;
+}
+.hokkaido{
+  font-family: europa, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color:#6969E7;
+  font-size:xx-large;
+  margin:10px;
+  text-align:center;
+}
+.place{
+  font-family:"游ゴシック",sans-serif;
+  background-color:#0097DB;
+  font-weight:bold;
+}
